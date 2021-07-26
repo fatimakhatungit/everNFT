@@ -1020,3 +1020,333 @@ b, optgroup, strong {
 	-ms-grid-rows: auto auto;
 	grid-template-rows: auto auto;
 }
+.pub-bonus-card.large {
+	padding: 9px 30px 16px;
+	background-image: url("https://uploads-ssl.webflow.com/5fdb2866020c200cd7fd7369/6074387517590b11f8c2a25d_Large.svg");
+	background-position: 50% 50%;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+.pub-bonus-card {
+	position: relative;
+	height: 160px;
+	padding: 10px 35px 20px 40px;
+	border-radius: 17px;
+	background-image: url("https://uploads-ssl.webflow.com/5fdb2866020c200cd7fd7369/60743875bbe00254a6f8332e_Smol.svg");
+	background-position: 50% 50%;
+	background-size: 100% 100%;
+}
+.ent-bonus-card-content {
+	position: relative;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	width: 100%;
+	height: 100%;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: start;
+	-webkit-align-items: flex-start;
+	-ms-flex-align: start;
+	align-items: flex-start;
+}
+.kom-worth-text {
+	color: rgba(51,51,51,.95);
+	font-weight: 700;
+}
+.nft-bonus-cost {
+	background-image: linear-gradient(129deg,#8318ee,#e38318 62%,#aeb900);
+	font-size: 34px;
+	line-height: 100%;
+	font-weight: 700;
+	-webkit-background-clip: text;
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+.nft-bonus-lable.large {
+	margin-bottom: 9px;
+	font-size: 30px;
+	line-height: 120%;
+	font-weight: 600;
+}
+.community-logo {
+	position: absolute;
+	left: auto;
+	top: 10%;
+	right: 2%;
+	bottom: auto;
+}
+.ent-bonus-card-content {
+	position: relative;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	width: 100%;
+	height: 100%;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: start;
+	-webkit-align-items: flex-start;
+	-ms-flex-align: start;
+	align-items: flex-start;
+}
+.kom-bonus-lable {
+	margin-top: 5px;
+	font-size: 18px;
+	line-height: 120%;
+	font-weight: 600;
+}
+.ent-bonus-card-content {
+	position: relative;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	width: 100%;
+	height: 100%;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: start;
+	-webkit-align-items: flex-start;
+	-ms-flex-align: start;
+	align-items: flex-start;
+}
+.ent-bonus-card-content {
+	position: relative;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	width: 100%;
+	height: 100%;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: start;
+	-webkit-align-items: flex-start;
+	-ms-flex-align: start;
+	align-items: flex-start;
+}
+.kom-bonus-lable {
+	margin-top: 5px;
+	font-size: 18px;
+	line-height: 120%;
+	font-weight: 600;
+}
+.blurrer.nft {
+	border-color: rgba(123,0,255,.32);
+	background-color: rgba(123,0,255,.1);
+}
+.blurrer-text.pod {
+	color: #6b6b6b;
+}
+.blurrer-text {
+	margin-left: 15px;
+	color: #00747b;
+	font-size: 16px;
+	font-weight: 700;
+}
+.pod-heading.timm {
+	margin-top: 70px;
+	font-size: 24px;
+	font-weight: 500;
+}
+.kom-time-flex {
+	display: -ms-grid;
+	display: grid;
+	width: 100%;
+	margin-top: 20px;
+	margin-bottom: 0;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	grid-auto-columns: 1fr;
+	grid-column-gap: 16px;
+	grid-row-gap: 16px;
+	-ms-grid-columns: 1fr 1fr 1fr 1fr;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	-ms-grid-rows: auto;
+	grid-template-rows: auto;
+}
+.nft-time-block {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	width: 100%;
+	height: 178px;
+	margin: 10px 0;
+	padding: 45px 34px;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
+	border-radius: 8px;
+	background-image: linear-gradient(358deg,rgba(131,24,238,.2),hsla(0,0%,100%,0));
+	color: #fff;
+	font-size: 69px;
+	line-height: 1.1;
+	font-weight: 500;
+	text-align: center;
+}
+.nft-time-number {
+	background-image: linear-gradient(118deg,#8318ee 32%,#ff8500 68%,#bfae00);
+	color: #fb651e;
+	-webkit-background-clip: text;
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+.nft-time-unit {
+	color: rgba(0,0,2,.56);
+	font-size: 19px;
+	font-weight: 500;
+}
+.nft-cta.faq {
+	margin-top: 60px;
+}
+.nft-cta {
+	display: block;
+	margin-top: 40px;
+	padding: 20px 90px;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
+	border-radius: 18px;
+	background-image: linear-gradient(120deg,#8318ee 20%,#ee8f00 67%,#93ca00);
+	box-shadow: 0 10px 44px -20px rgba(61,156,242,.4);
+	-webkit-transition: .5s cubic-bezier(.86, 0, .07, 1);
+	transition: .5s cubic-bezier(.86, 0, .07, 1);
+	color: #fff;
+	text-align: center;
+	text-decoration: none;
+}
+.pub-cta-text {
+	display: inline-block;
+	font-size: 28px;
+	line-height: 34px;
+	font-weight: 300;
+	text-align: center;
+	text-decoration: none;
+}
+.nft-bonuse-note {
+	width: 100%;
+	margin-top: 60px;
+	padding-top: 24px;
+	padding-bottom: 24px;
+	border: 1px dashed rgba(123,86,238,.63);
+	border-radius: 7px;
+	background-color: rgba(156,95,253,.07);
+	font-size: 16px;
+	font-weight: 500;
+	text-align: center;
+}
+.nft-bonuse-note {
+	font-size: 16px;
+	font-weight: 500;
+	text-align: center;
+}
+.pub-bonus-card {
+	position: relative;
+	height: 160px;
+	padding: 10px 35px 20px 40px;
+	border-radius: 17px;
+	background-image: url("https://uploads-ssl.webflow.com/5fdb2866020c200cd7fd7369/60743875bbe00254a6f8332e_Smol.svg");
+	background-position: 50% 50%;
+	background-size: 100% 100%;
+}
+.ent-bonus-card-content {
+	position: relative;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	width: 100%;
+	height: 100%;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: start;
+	-webkit-align-items: flex-start;
+	-ms-flex-align: start;
+	align-items: flex-start;
+}
+.blurrer {
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: auto;
+	bottom: auto;
+	z-index: 99;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	width: 100%;
+	height: 100%;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	-ms-flex-direction: row;
+	flex-direction: row;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
+	border: 1px dashed rgba(19,152,135,.4);
+	border-radius: 11px;
+	background-color: rgba(9,114,82,.15);
+}
