@@ -442,12 +442,13 @@ label {
 	width: 100%;
 	height: 100%;
 	margin: 0;
-	padding: 0;
+	padding: 0;  
 	background-color: #151515;
 	overflow: hidden;
 	border-radius: 18px;
 	text-align: center;
-	padding: 90px;
+	padding: 63px;
+	margin-bottom: 20px;
 }
 #sun {
 	display: table-cell;
@@ -463,4 +464,56 @@ p {
 	font-size: 16px;
 	line-height: 1.4;
 	max-width: 351px;
+	color: #fff;
+} 
+.pub-hero-cta-subtext {
+	margin-top: 0;
+	margin-bottom: 20px;
+	font-size: 20px;
+	line-height: 120%;
+	text-align: center;
+}
+.pub-hero-cta-subtext {
+	font-size: 20px;
+	line-height: 120%;
+	text-align: center;
+}
+.pub-hero-cta-subtext-highlight {
+	font-weight: 700;
+}
+.nft-hero-cta {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	width: 100%;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
+	border-radius: 17px;
+	background-image: linear-gradient(127deg,#8318ee 34%,#ee8f00 80%,#93ca00);
+	-webkit-transition: .5s;
+	transition: .5s;
+	color: #fff;
+	text-decoration: none;
+}
+.ent-hero-cta-text {
+	display: inline-block;
+	font-size: 24px;
+	line-height: 40px;
+	font-weight: 700;
+	text-align: center;
+	text-decoration: none;
+}
+.you-cta-text-strike {
+	font-size: 18px;
+	font-weight: 400;
+	text-decoration: line-through;
 }
