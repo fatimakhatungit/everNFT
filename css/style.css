@@ -270,3 +270,52 @@ label {
 	background: #2B96CC;
 	color: #fff
 }
+
+
+.main-section {
+	z-index: 4;
+	min-height: 900px;
+	padding-top: 70px;
+	padding-bottom: 60px;
+	background-color: #000;
+	background-image: url("../img/background.png");
+	background-position: 0 0;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	color: #fff;
+}
+.nft-title {
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	font-size: 48px;
+	line-height: 120%;
+	text-align: center;
+	font-weight: 700;
+	color: #fff;
+}
+.nft-highlight {
+	background-image: linear-gradient(101deg,#9127cf,#e48318 66%,#bfae00);
+	-webkit-background-clip: text;
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+.nft-highlight {
+	background-image: linear-gradient(101deg,#9127cf,#e48318 66%,#bfae00);
+	-webkit-background-clip: text;
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+} 
+.section-title .nft-subtitle p {
+	width: 70%;
+	margin-top: 14px;
+	margin-right: auto;
+	margin-left: auto;
+	font-size: 20px;
+	line-height: 140%;
+	font-weight: 300;
+	text-align: center;
+	color: #fff;
+	padding: 0px 73px;
+}
