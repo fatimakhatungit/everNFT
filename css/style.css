@@ -532,7 +532,7 @@ p {
 }
 .nft-container {
 	position: relative;
-	z-index: 1;
+	z-index: 1; 
 	display: -webkit-box;
 	display: -webkit-flex;
 	display: -ms-flexbox;
@@ -550,6 +550,7 @@ p {
 	-webkit-align-items: center;
 	-ms-flex-align: center;
 	align-items: center;
+	margin-bottom: 50px;
 }
 .nft-hero-logos {
 	position: relative;
@@ -595,4 +596,74 @@ p {
 }
 .nft-hero-logos img {
 	max-width: 100%;
+}
+.nft-section.chart {
+	overflow: visible;
+	padding-top: 82px;
+}
+.chat-section {
+	margin-top: 200px;
+}
+.heading-36 {
+	width: 65%;
+	margin-bottom: 18px;
+	font-size: 28px;
+}
+.text-block-85 {
+	width: 70%;
+	margin-bottom: 40px;
+	font-size: 14px;
+	line-height: 140%;
+}
+.nft-small-cta {
+	padding: 26px 42px;
+	border-radius: 18px;
+	background-image: radial-gradient(circle farthest-side at 0 0,#8318ee 19%,#ee8f00 72%,#93ca00);
+	font-size: 20px;
+	font-weight: 600;
+	letter-spacing: .5px;
+}
+.w-button {
+	display: inline-block;
+	padding: 9px 15px;
+	background-color: #3898ec;
+	color: #fff;
+	border: 0;
+	line-height: inherit;
+	text-decoration: none;
+	cursor: pointer;
+	border-radius: 0;
+}
+.image-67 {
+	width: 100%;
+	-webkit-transform: scale(1.3);
+	-ms-transform: scale(1.3);
+	transform: scale(1.3);
+	-webkit-transform-origin: 70% 0%;
+	-ms-transform-origin: 70% 0%;
+	transform-origin: 70% 0%;
+}
+.heading-36 {
+	width: 65%;
+	margin-bottom: 22px;
+	font-size: 28px;
+	line-height: 36px;
+	font-weight: 700;
+}  
+.text-block-85 {
+	width: 70%;
+	margin-bottom: 40px;
+	font-size: 14px;
+	line-height: 140%;
+}
+.nft-small-cta {
+	padding: 26px 42px;
+	border-radius: 18px;
+	background-image: radial-gradient(circle farthest-side at 0 0,#8318ee 19%,#ee8f00 72%,#93ca00);
+	font-size: 20px;
+	font-weight: 600;
+	letter-spacing: .5px;
+} 
+.div-block-134 {
+	margin: 106px 40px;
 }
