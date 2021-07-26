@@ -517,3 +517,82 @@ p {
 	font-weight: 400;
 	text-decoration: line-through;
 }
+.nft-hero-logos-container {
+	position: absolute;
+	left: auto;
+	top: 50px;
+	right: 0;
+	bottom: 0; 
+	z-index: 99;
+	width: 100%; 
+	padding-bottom: 60px;
+	-webkit-transform: translate(0,70%);
+	-ms-transform: translate(0,70%);
+	transform: translate(0,70%);
+}
+.nft-container {
+	position: relative;
+	z-index: 1;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	width: 100%;
+	max-width: 944px;
+	margin-right: auto;
+	margin-left: auto;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
+}
+.nft-hero-logos {
+	position: relative;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	padding: 20px;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	-ms-flex-direction: row;
+	flex-direction: row;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
+	border-radius: 20px;
+	background-color: #fff;
+	box-shadow: 0 34px 84px -20px rgba(0,0,0,.1);
+}
+.nft-logo-featured {
+	position: absolute;
+	left: 50%;
+	top: 0;
+	right: auto;
+	bottom: auto;
+	margin-bottom: 10px;
+	padding: 9px 15px;
+	border-radius: 10px 10px 0 0;
+	background-image: linear-gradient(102deg,rgba(131,24,238,.4),rgba(227,131,25,.4) 79%,rgba(170,187,0,.4));
+	-webkit-transform: translate(-50%,-100%);
+	-ms-transform: translate(-50%,-100%);
+	transform: translate(-50%,-100%);
+}
+.text-block-83 {
+	font-size: 12px;
+	font-weight: 500;
+}
+.nft-hero-logos img {
+	max-width: 100%;
+}
