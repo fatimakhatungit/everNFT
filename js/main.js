@@ -2,6 +2,18 @@
 "use strict";
 
 
+//LightBox / Fancybox
+if($('.lightbox-image').length) {
+	$('.lightbox-image').fancybox({
+		openEffect  : 'fade',
+		closeEffect : 'fade',
+		helpers : {
+			media : {}
+		}
+	});
+}
+
+
 // Set the date we're counting down to
 var countDownDate = new Date().setHours(24, 0, 0, 0);
 // Update the count down every 1 second
@@ -27,17 +39,11 @@ var x = setInterval(function () {
 	}
 }, 1000);
 
- 
-var canvas = $('canvas#output')[0];
-var context = canvas.getContext('2d');
-var video = $('video')[0];
 
-$('#capture-button').click(function(){
-  context.drawImage(video, 0, 0);
-  console.log("Captured");
-  console.log(canvas.toDataURL());
-  $("#frames").append(`<li><img src=${canvas.toDataURL()}></li>`);
-});
+
+
+
+
 
 
 })(jQuery);	
