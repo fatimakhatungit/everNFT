@@ -1482,3 +1482,132 @@ b, optgroup, strong {
 .nft-cta.faq {
 	margin-top: 60px;
 }
+
+
+.nft-section.mentor {
+	min-height: 100vh;
+	padding-top: 0;
+	padding-bottom: 120px;
+	background-color: #000;
+	background-image: url("https://uploads-ssl.webflow.com/5fdb2866020c200cd7fd7369/60ba92dbd2e7b618d3367829_mentor.png");
+	background-position: 100% 0;
+	background-size: 50vw;
+	background-repeat: no-repeat;
+	color: #fff;
+}
+.mym-lable {
+	padding: 14px 40px;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+	background-color: rgba(131,24,238,.2);
+	font-size: 18px;
+}
+.mym-lable {
+	font-size: 18px;
+	text-align: center;
+}
+.nft-mentor-avatar {
+	width: 150px;
+}
+.nft-mentee-name {
+	margin-left: 20px;
+}
+.nft-hero-instructor-name.mentor {
+	background-image: linear-gradient(91deg,#8318ee 14%,#e68614 38%,#99c700 75%);
+	font-size: 30px;
+	line-height: 50px;
+	font-weight: 700;
+}
+.nft-hero-instructor-description-copy {
+	width: 100%;
+	margin-bottom: 16px;
+	color: hsla(0,0%,100%,.83);
+	font-size: 16px;
+	line-height: 140%;
+}
+.nft-mentor-grid {
+	display: -ms-grid;
+	display: block;
+	/*! margin-top: 22%; */
+	grid-auto-columns: 1fr;
+	grid-column-gap: 16px;
+	grid-row-gap: 0px;
+	-ms-grid-columns: 1fr 1fr;
+	grid-template-columns: 1fr 1fr;
+	-ms-grid-rows: auto auto;
+	grid-template-rows: auto auto;
+	 padding: 0px 40px; 
+}   
+.div-block-159 {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	margin-bottom: 20px;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
+	border-radius: 20px;
+	background-color: #1a1a1a;
+}
+.nft-mentor-logo {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
+}
+.text-block-111 {
+	margin-bottom: 20px;
+	font-size: 20px;
+	line-height: 140%;
+}
+.image-87 {
+	width: 100%;
+	margin-top: 20px;
+}
+.image-86 {
+	width: 100%;
+	margin-bottom: 16px;
+}
+
+.nft-mentor-avataar-container {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
+	padding: 40px 22px;
+}  
+.paragraph {
+	margin-left: 30px;
+	font-size: 18px;
+}
+.text-block-111 {
+	margin-bottom: 20px;
+	font-size: 20px;
+	line-height: 140%;
+}
+.image-87 {
+	width: 100%;
+	margin-top: 20px;
+}
+.monitor-logo{
+	margin-top: 40px;
+}
