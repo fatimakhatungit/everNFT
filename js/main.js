@@ -2,69 +2,30 @@
 "use strict";
 
 
-$('.owl-carousel').owlCarousel({
-    loop:true,
-    margin:0,
-	items:1,
-	navText:['<i class="fa fa-angle-left"></i>','<i class="fa fa-angle-right"></i>'];
-    nav:true,
-	dots:false;
-    responsive:{
-        0:{
-            items:1
-        },
-        767:{
-            items:3
-        },
-        992:{
-            items:5
-        }
-    }
-})
-
-
-/* magnificPopup img view */
-$('.popup-image').magnificPopup({
-	type: 'image',
-	gallery: {
-	  enabled: true
+// Set the date we're counting down to
+var countDownDate = new Date().setHours(24, 0, 0, 0);
+// Update the count down every 1 second
+var x = setInterval(function () {
+	// Get todays date and time
+	var now = new Date().getTime();
+	// Find the distance between now an the count down date
+	var distance = countDownDate - now;
+	// Time calculations for days, hours, minutes and seconds
+	var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+	var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+	var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+	var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+	// Output the result in an element with id="demo"
+	document.getElementById("day-number").innerHTML = days;
+	document.getElementById("hour-number").innerHTML = hours;
+	document.getElementById("minute-number").innerHTML = minutes;
+	document.getElementById("second-number").innerHTML = seconds;
+	// If the count down is over, write some text
+	if (distance < 0) {
+		clearInterval(x);
+		document.getElementById("demo").innerHTML = "EXPIRED";
 	}
-});
-
-/* magnificPopup video view */
-$('.popup-video').magnificPopup({
-	type: 'iframe'
-});
-
-
-
-$('.grid').imagesLoaded( function() {
-	// init Isotope
-	var $grid = $('.grid').isotope({
-	  itemSelector: '.grid-item',
-	  percentPosition: true,
-	  masonry: {
-		// use outer width of grid-sizer for columnWidth
-		columnWidth: '.grid-item',
-	  }
-	});
-});
-
-// filter items on button click
-$('.portfolio-menu').on( 'click', 'button', function() {
-  var filterValue = $(this).attr('data-filter');
-  $grid.isotope({ filter: filterValue });
-});	
-
-
-
-//for menu active class
-$('.portfolio-menu button').on('click', function(event) {
-	$(this).siblings('.active').removeClass('active');
-	$(this).addClass('active');
-	event.preventDefault();
-});
-
+}, 1000);
 
 
 })(jQuery);	
