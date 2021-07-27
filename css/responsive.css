@@ -47,6 +47,10 @@
  
 /* Large Mobile :480px. */
 @media only screen and (min-width: 480px) and (max-width: 767px) {
-.container {width:450px}
+
+.nft-title {
+	font-size: 44px;
+	padding: 0px 0px;
+}
  
 }
