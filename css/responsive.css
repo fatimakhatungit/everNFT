@@ -22,12 +22,26 @@
     .nft-title {
         font-size: 44px;
     }
+    .mym-lable {
+        font-size: 16px;
+        text-align: center;
+    }
+
 }
 
  
 /* small mobile :320px. */
-@media (max-width: 767px) {
-
+@media (max-width: 768px) {
+.nft-title {
+	font-size: 44px;
+	padding: 0px 30px;
+}
+.section-title .nft-subtitle p {
+	width: 70%;
+}
+.nft-hero-logos-container {
+	top: 5px;
+}
  
 }
  
