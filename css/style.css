@@ -996,7 +996,8 @@ b, optgroup, strong {
 .pod-heading {
 	color: #0b2724;
 	text-align: center;
-}
+	font-size: 28px;
+} 
 .nft-display {
 	display: inline-block;
 	background-image: linear-gradient(122deg,#9127cf 32%,#e48318 75%,#bfae00);
@@ -1610,4 +1611,354 @@ b, optgroup, strong {
 }
 .monitor-logo{
 	margin-top: 40px;
+}
+
+.nft-section.certification {
+	min-height: auto;
+	padding-top: 120px;
+	padding-bottom: 140px;
+	background-image: -webkit-gradient(linear,left top,left bottom,from(rgba(65,13,102,.08)),to(rgba(65,13,102,.08)));
+	background-image: linear-gradient(180deg,rgba(65,13,102,.08),rgba(65,13,102,.08));
+}
+.nft-gradient-heading {
+	display: inline-block;
+	margin-bottom: -8px;
+	background-image: linear-gradient(123deg,#9127cf 23%,#e48318 75%,#bfae00);
+	font-size: 40px;
+	line-height: 120%;
+	-webkit-background-clip: text;
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+.text-block-73 {
+	margin-top: 20px;
+	font-size: 20px;
+	line-height: 120%;
+	font-weight: 500;
+}
+.nft-highlight {
+	background-image: linear-gradient(101deg,#9127cf,#e48318 66%,#bfae00);
+	-webkit-background-clip: text;
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+.kom-certi-grid {
+	display: -ms-grid;
+	display: grid;
+	margin-top: 50px;
+	grid-auto-columns: 1fr;
+	grid-column-gap: 40px;
+	grid-row-gap: 16px;
+	-ms-grid-columns: 1fr 1.25fr;
+	grid-template-columns: 1fr 1.25fr;
+	-ms-grid-rows: auto;
+	grid-template-rows: auto;
+}
+.ent-certi-grid-left {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	-ms-flex-direction: column;
+	flex-direction: column;
+}
+.pod-certi-features {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	margin-bottom: 30px;
+	-webkit-box-align: start;
+	-webkit-align-items: flex-start;
+	-ms-flex-align: start;
+	align-items: flex-start;
+}
+.nft-certi-icon {
+	width: 48px;
+	height: 48px;
+	margin-right: 20px;
+	padding: 8px;
+	border-radius: 5px;
+	background-color: rgba(131,24,238,.08);
+}
+.ent-certi-content {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	-webkit-box-align: start;
+	-webkit-align-items: flex-start;
+	-ms-flex-align: start;
+	align-items: flex-start;
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	-ms-flex: 1;
+	flex: 1;
+}
+.kom-certi-heading {
+	background-color: #333;
+	font-size: 22px;
+	line-height: 32px;
+	font-weight: 500;
+	-webkit-background-clip: text;
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+.kom-certi-feature-des {
+	font-size: 14px;
+	line-height: 160%;
+	font-weight: 300;
+}
+.certified-title {
+	margin-bottom: 50px;
+}
+.kom-certi-image {
+	width: 100%;
+	border: 8px solid rgba(253,190,95,.15);
+	border-radius: 20px;
+}
+.nft-section.certification.wf-section .certified-title{
+	font-size: 16px;
+}
+.nft-section.last-offer {
+	min-height: auto;
+	padding-bottom: 70px;
+	background-image: -webkit-gradient(linear,left top,left bottom,from(rgba(65,13,102,.08)),to(rgba(65,13,102,.08)));
+	background-image: linear-gradient(180deg,rgba(65,13,102,.08),rgba(65,13,102,.08));
+}
+
+.ent-container {
+	position: relative;
+	z-index: 2;
+	width: 100%;
+	max-width: 944px;
+	margin-right: auto;
+	margin-left: auto;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
+}
+.text-block-82 {
+	font-size: 12px;
+	text-align: center;
+	color: #fff;
+} 
+
+.pod-offer-card {
+	padding: 40px 22px 22px;
+	border-radius: 30px;
+	background-image: -webkit-gradient(linear,left top,left bottom,from(#fff),to(#fff));
+	background-image: linear-gradient(180deg,#fff,#fff);
+}
+.pod-offer-card-headig {
+	width: 90%;
+	margin-bottom: 20px;
+	font-size: 34px;
+	line-height: 120%;
+}
+.pod-offer-price {
+	margin-bottom: 34px;
+	padding-bottom: 20px;
+	border-bottom: .5px solid rgba(0,0,0,.2);
+}
+.nft-price {
+	display: inline-block;
+	background-image: linear-gradient(154deg,#9127cf 42%,#e48318 65%,#bfae00);
+	font-size: 60px;
+	line-height: 120%;
+	font-weight: 700;
+	-webkit-background-clip: text;
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+.pod-not-price {
+	display: inline-block;
+	margin-left: 10px;
+	color: #616161;
+	font-size: 28px;
+	line-height: 120%;
+	text-decoration: line-through;
+}
+.ent-offer-card-benefit {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	width: 90%;
+	margin-bottom: 12px;
+	padding-right: 30px;
+	padding-left: 10px;
+}
+.ent-offer-card-benefit-tick {
+	width: 20px;
+	height: 15px;
+	margin-top: 10px;
+	margin-right: 15px;
+}
+.ent-offer-card-benefit-text {
+	font-size: 16px;
+	line-height: 140%;
+}
+.ent-offer-card-benefit {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	width: 90%;
+	margin-bottom: 12px;
+	padding-right: 30px;
+	padding-left: 10px;
+}
+.ent-offer-card-benefit-tick {
+	width: 20px;
+	height: 15px;
+	margin-top: 10px;
+	margin-right: 15px;
+}
+.pod-offer-card-note {
+	margin-bottom: 20px;
+	padding-right: 11px;
+	padding-left: 11px;
+	color: #8a8a8a;
+	font-size: 15px;
+	line-height: 24px;
+}
+.kom-offer-card-cta-copy {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	padding-top: 22px;
+	padding-bottom: 22px;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
+	border-radius: 18px;
+	background-image: linear-gradient(136deg,#8318ee 20%,#ee8f00 69%,#93ca00);
+	color: #fff;
+	text-decoration: none;
+}
+.ent-cta-text {
+	display: inline-block;
+	font-size: 24px;
+	line-height: 40px;
+	font-weight: 700;
+	text-align: center;
+	text-decoration: none;
+}
+.nft-offer-deli-heading {
+	display: inline-block;
+	margin-top: 40px;
+	margin-bottom: 17px;
+	background-image: linear-gradient(137deg,#9127cf 26%,#e48318 72%,#bfae00);
+	font-size: 28px;
+	line-height: 40px;
+	-webkit-background-clip: text;
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+.nft-offer-deli-item {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	margin-bottom: 18px;
+	-webkit-box-align: start;
+	-webkit-align-items: flex-start;
+	-ms-flex-align: start;
+	align-items: flex-start;
+}
+.nft-offer-deli-tick {
+	width: 30px;
+	margin-top: -2px;
+	margin-right: 10px;
+	padding: 5px;
+}
+.pub-offer-deli-text {
+	width: 80%;
+	font-size: 14px;
+	line-height: 140%;
+}
+.nft-offer-deli-item {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	margin-bottom: 18px;
+	-webkit-box-align: start;
+	-webkit-align-items: flex-start;
+	-ms-flex-align: start;
+	align-items: flex-start;
+}
+
+
+
+
+
+
+
+
+/* footer  */
+.footer.kom {
+	background-color: #222;
+}
+.kom-section {
+	position: relative;
+	z-index: 3;
+	min-height: 0;
+}
+.footer-content{
+	padding: 40px 0;
+}
+.footer-logo-gs-cta {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
+}
+.footer-gs-logo {
+	width: 120px;
+}
+.footer-des {
+	width: 60%;
+	margin-top: 20px;
+	padding: 5px 10px;
+	font-size: 12px;
+	line-height: 150%;
+	color: #fff;
+}
+.subfooter.kom {
+	background-color: #111;
+}
+.subfooter {
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
