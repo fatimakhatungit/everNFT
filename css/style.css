@@ -740,13 +740,45 @@ body:not(.showfocus) .player a, body:not(.showfocus) .player button, body:not(.s
 }
 
 
-
+img, video {
+	max-width: 100%;
+  }
+  
+  video {
+	width: 300px;
+  }
+  
+  canvas {
+	width: 0;
+	height: 0;
+  }
+  
+  ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+  }
+  
+  ul li {
+	width: 300px;
+	display: inline;
+	float: left;
+  }
 .video-img img {
 	width: 100%;
 	border-radius: 18px;
 	margin-bottom: 20px;
 }
-
+.right-side {
+	position: relative;
+}
+.video-img iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 61%;
+}
 
 .pub-checkbox-check {
 	cursor: pointer;
